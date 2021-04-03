@@ -1,0 +1,64 @@
+body{
+   
+   
+    background-color: grey;
+}
+ul{
+    
+    background-color: #808080;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+   
+}
+li{
+    float: left;
+}
+li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover{
+    background-color: aqua;
+    color: black;
+}
+li a.active{
+    background-color: seagreen;
+}
+#container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-image: url("./images/benny.jpeg");
+    
+}
+.qibet{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: right;
+    clear: both;
+    opacity: 0.4;
+}
+#cape{
+    position: relative;
+    float: left;
+    justify-content: space-between;
+    padding: 5px;
+}
+h3{
+    color: purple;
+    text-align: left;
+}
+#cape a:hover{
+    opacity: 0.3;
+}
