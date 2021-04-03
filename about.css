@@ -1,7 +1,7 @@
 body{
    
-   
-    background-color: grey;
+    line-height: 1.5;
+    background-color: burlywood;
 }
 ul{
     
@@ -30,9 +30,7 @@ li a:hover{
     background-color: aqua;
     color: black;
 }
-li a.active{
-    background-color: seagreen;
-}
+
 #container{
     width: 80%;
     margin: auto;
