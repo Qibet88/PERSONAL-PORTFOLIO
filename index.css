@@ -39,9 +39,7 @@ li a:hover{
     background-color: aqua;
     color: black;
 }
-li a.active{
-    background-color: seagreen;
-}
+ 
 #intro{
     position: absolute;
     top: 170px;
